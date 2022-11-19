@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Friendly Eats</string>
+
+    <string name="value_any_category">EQUIPO </string>
+    <string name="value_any_city">CIUDAD</string>
+    <string name="value_any_price">CATEGORIA</string>
+
+    <string name="price_1">SUB 18</string>
+    <string name="price_2">SUB 20</string>
+    <string name="price_3">PROFESIONAL</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_city">City</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_restaurants">Todos los Datos</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating">Ranking Top</string>
+    <string name="sort_by_popularity">POPULARIDAD</string>
+    <string name="sort_by_price">VICTORIAS</string>
+
+    <string name="sorted_by_rating">Ordenado por Ranking</string>
+    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_popularity">sorted by popularity</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_reviews">Be the first to leave a review!</string>
+    <string name="hint_review">How was your experience?</string>
+    <string name="submit">Submit</string>
+    <string name="filter_add_review">Add review</string>
+
+    <string name="title_sign_in_error">Sign In Error</string>
+    <string name="message_no_network">No network connection.</string>
+    <string name="message_unknown">Unknown error.</string>
+    <string name="option_retry">Retry</string>
+    <string name="option_exit">Exit</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Brunch</item>
+        <item>Burgers</item>
+        <item>Coffee</item>
+        <item>Deli</item>
+        <item>Dim Sum</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Ramen</item>
+        <item>Sushi</item>
+    </string-array>
+
+    <!-- 50 most populous cities in the US -->
+    <string-array name="cities">
+        <item>@string/value_any_city</item>
+
+        <item>MANTA</item>
+        <item>QUITO</item>
+        <item>GUAYAKILL</item>
+        <item>CUENCA</item>
+        <item>LOJA</item>
+        <item>PORTOVIEJO</item>
+
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+</resources>
